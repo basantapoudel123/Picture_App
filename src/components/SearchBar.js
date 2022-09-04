@@ -17,7 +17,7 @@ class SearchBar extends React.Component {
             <div className="ui segment">
                 <form onSubmit={(e) => this.onFormSubmit(e )} className='ui form'>
                     <div className='field' >
-                        <label>Search Image</label>
+                        <label>Search Image From Unsplash API</label>
                          <input 
                                 type="text" 
                                 value= {this.state.term}
